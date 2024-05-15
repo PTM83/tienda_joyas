@@ -4,7 +4,7 @@ Desafío que corresponde al bootcamp de Desafío Latam, que se debe desarrollar 
 # Data Base
 1. Se debe crear una base de dato denominada joyas, donde se creará una tabla con la siguiente configuración:
 
-CREATE DATABASE joyas;
+`CREATE DATABASE joyas;`
 
 CREATE TABLE inventario (
     id SERIAL, 
@@ -14,6 +14,7 @@ CREATE TABLE inventario (
     precio INT, 
     stock INT
     );
+
 2. Se debe crear la tabla inventario, la cual es poblada con la siguiente información:
 
 INSERT INTO inventario values
